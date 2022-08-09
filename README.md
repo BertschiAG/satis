@@ -1,3 +1,9 @@
+Differences to the original Satis: 
+-   This version incorporates "git config --global --add safe.directory '*'" to solve file access issues on AWS.
+-   Includes proper versioning on Docker
+
+----
+
 # Satis
 
 Simple static Composer repository generator.
